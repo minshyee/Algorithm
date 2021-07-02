@@ -5,3 +5,4 @@ To improve my PS skill
 - Greedy 
 - BFS/DFS
 - Sort
+- Binary Search
