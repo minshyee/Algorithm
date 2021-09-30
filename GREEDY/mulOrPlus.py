@@ -24,7 +24,7 @@ print(s)
 # s=0
 # for j in num:
 # 	j = int(j)
-# 	if j >= 2  or s > 1:
+# 	if j >= 2  and s > 1:
 # 		s *= j
 # 	else:
 # 		s+= j
