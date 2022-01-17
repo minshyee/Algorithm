@@ -6,13 +6,8 @@ To improve my PS skill
 
 
 <details>
-    <summary>
+    <summary  style="font-Weight : bold;">old</summary>
 	<div>
-	### old
-	- Greedy
-	- BFS/DFS
-	- Sort
-	- Binary Search
-	</div>
-    </summary>
+	- Greedy, BFS/DFS, Sort, Binary Search
+    </div>
 </deatils>
