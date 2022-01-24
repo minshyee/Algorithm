@@ -17,9 +17,11 @@ fear = sorted(list(map(int, input().split())))
 # 1 2 2 2 3
 g_cnt = 0 # 그룹수
 max_fear = fear[0] # 그룹 내 최대 공포도
-print(fear)
-for i in range(1,len(fear)): # 모험가 수 만큼 돌면서
-	if max_fear < fear[i]: # 다음 공포도가 현재 그룹의 가장 큰 공포도보다 크다면 그룹원 모집 종료
-		g_cnt +=1
+person = 0 # 그룹원 수
+for i in range(1, len(fear)): # 모험가 수 만큼 돌면서
+	person += 1 # 그룹원 추가 시키기
+	if max_fear <= person: # 현재 그룹원 수가 그룹의 가장 큰 공포도보다 크다면 그룹원 모집 종료
+		g_cnt +=1 # 그룹 추가
+		person = 0 # 그룹원 초기화
 		max_fear = fear[i] # 새로운 그룹의 가장 큰 공포도
 print(g_cnt) # 모두 확인이 끝난 뒤 최종 그룹의 개수 리턴
