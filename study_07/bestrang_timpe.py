@@ -26,5 +26,5 @@ p_list = list_prime(max(n_list)) # 매번 검사할 필요는 없다! : key
 # cnt=[0] * len(n_list)
 # for i in range(len(n_list)):
 for n in n_list:
-    print(p_list[n+1:2*n+1].count(1))
+    print(p_list[n+1:2*n+1].count(1)) # index가 값으로
 
