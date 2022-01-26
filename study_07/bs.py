@@ -16,3 +16,14 @@ def searching(lst, num, med):
 
 for i in s_lst:
     print(searching(info, i, n//2))
+
+# -------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
+
+n = int(input())
+info = set(map(int, input().split()))
+m = int(input())
+s_lst = list(map(int, input().split()))
+
+for i in s_lst:
+    print(1) if n in info else print(0)
