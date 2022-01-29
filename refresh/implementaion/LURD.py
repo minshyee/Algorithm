@@ -42,11 +42,12 @@ dy = [0,0,-1,1]
 x, y = 1, 1
 
 for i in plan:
-	for j in range(4):
-		if i == set_p[j]:
-			nx = x + dx[j]
+    for j in range(4):
+        if i == set_p[j]:
+            nx = x + dx[j]
             ny = y + dy[j]
 
-	if nx < 1 or nx > n or ny < 1 or ny > n:
-		continue
-	x, y = nx, ny
+    if nx < 1 or nx > n or ny < 1 or ny > n:
+        continue
+    x, y = nx, ny
+print(x,y)
