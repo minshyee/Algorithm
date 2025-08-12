@@ -6,8 +6,7 @@ def sortArr(n):
     return sorted(n)
 
 def reverseArr(n):
-    n.sort()
-    return list(reversed(n))
+    return n.sort(reverse=True)
 
 def printStr(arr):
     return " ".join(map(str, arr))
